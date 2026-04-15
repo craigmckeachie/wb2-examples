@@ -9,6 +9,5 @@ public class App {
 
 
         System.out.println(person.getFirstName() + " " + person.getLastName());
-
     }
 }

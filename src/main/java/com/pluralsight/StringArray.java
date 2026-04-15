@@ -15,6 +15,11 @@ public class StringArray {
             System.out.println(names[index]);
         }
 
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+
 
 
 

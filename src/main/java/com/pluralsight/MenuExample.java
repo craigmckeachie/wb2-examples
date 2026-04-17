@@ -21,16 +21,23 @@ public class MenuExample {
 
 
             int command = input.nextInt();
-            
-            if (command == 1){
-                runFirstScreen();
-            } else if (command == 2) {
-                runSecondScreen();
-            } else if (command== 3) {
-                programIsRunning = false;
-            }else{
-                System.out.println("Invalid command try again.");
+
+            switch(command){
+                case 1 -> runFirstScreen();
+                case 2 -> runSecondScreen();
+                case 3 -> programIsRunning = true;
+                default -> System.out.println("Invalid command try again.");
             }
+            
+//            if (command == 1){
+//                runFirstScreen();
+//            } else if (command == 2) {
+//                runSecondScreen();
+//            } else if (command== 3) {
+//                programIsRunning = false;
+//            }else{
+//                System.out.println("Invalid command try again.");
+//            }
 
         }
 

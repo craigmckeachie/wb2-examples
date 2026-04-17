@@ -25,7 +25,7 @@ public class MenuExample {
             switch(command){
                 case 1 -> runFirstScreen();
                 case 2 -> runSecondScreen();
-                case 3 -> programIsRunning = true;
+                case 3 -> programIsRunning = false;
                 default -> System.out.println("Invalid command try again.");
             }
             
